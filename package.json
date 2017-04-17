@@ -5,9 +5,14 @@
   "repository": "git@github.com:LosGimenos/testing-yarn.git",
   "author": "Lorenzo",
   "license": "MIT",
+  "scripts": {
+    "production": "webpack -p",
+    "dev": "webpack-dev-server --progress --colors",
+  },
   "dependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
-    "webpack": "^2.3.3"
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
   }
 }
