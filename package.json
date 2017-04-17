@@ -6,12 +6,13 @@
   "author": "Lorenzo",
   "license": "MIT",
   "scripts": {
-    "production": "webpack -p",
-    "dev": "webpack-dev-server --progress --colors",
+    "build": "NODE_ENV=production webpack -p",
+    "dev": "webpack-dev-server --hot --progress --colors"
   },
   "dependencies": {
     "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
+    "extract-text-webpack-plugin": "^2.1.0",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
   }
