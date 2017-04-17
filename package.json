@@ -15,5 +15,9 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "webpack": "^2.3.3",
     "webpack-dev-server": "^2.4.2"
+  },
+  "devDependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
   }
 }
